@@ -1,7 +1,8 @@
 <template>
     <div class="columns">
-        <div class="column" v-if="isLoading">Loading players...</div>
-        <div class="column" v-else>
+        <!-- <div class="column" v-if="isLoading">Loading players...</div>
+        <div class="column" v-else> -->
+        <div class="column">
         <table class="table">
             <thead>
                 <tr>
