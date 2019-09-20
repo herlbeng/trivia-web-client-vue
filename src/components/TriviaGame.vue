@@ -72,7 +72,7 @@ export default {
         this.getQuestion()
         axios.defaults.headers.common['Authorization'] = `Bearer ${await this.$auth.getAccessToken()}`
         try {
-            const response = await axios.get(API_BASE_URL + '/players')
+            const response = await axios.get(API_BASE_URL + '/players/all')
             this.players = response.data.data
             this.isLoading = false
         } catch (e) {
