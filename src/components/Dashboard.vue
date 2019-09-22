@@ -7,8 +7,8 @@
                         <div class="navbar-item">
                             <router-link to="/" class="navbar-item">Home</router-link>
                             <router-link to="/trivia" class="navbar-item">Trivia Game</router-link>
-                            <a class="button is-light" v-if='authenticated' v-on:click='logout' id='logout-button'> Logout </a>
-                            <a class="button is-light" v-else v-on:click='login' id='login-button'> Login </a>
+                            <a class="button is-light" v-on:click='logout' id='logout-button'> Logout </a>
+                            <a class="button is-light" v-on:click='login' id='login-button'> Login </a>
                         </div>
                     </div>
                 </nav>
